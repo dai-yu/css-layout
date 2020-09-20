@@ -12,3 +12,72 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;/*垂直居中*/
+    top: 0%;
+}
+
+header *{
+    display: inline;
+    color: white;
+}
+#headerh1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;/*水平居中*/
+}
+
+#headerimg {
+    border-radius: 50%;
+}
+header nav{
+    float: right;
+    top: 50%;
+    text-align: center;
+}
+
+#description img{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+main h2{
+    margin-top: 5%;
+}
+section h2, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#description{
+    background-color:lightgray;
+    padding: 0% 10%;
+}
+.description-p1{
+    margin-top: 2%;
+}
+.description-p2{
+    clear: both;
+}
+
+#relationship{
+    padding: 0% 10%;
+}
+#relationship img{
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+footer {
+    height: 40px;
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0 0 0;
+}
